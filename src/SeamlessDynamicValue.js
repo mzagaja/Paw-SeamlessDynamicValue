@@ -33,12 +33,12 @@ class SeamlessDynamicValue {
      * URI up to, but not including, the query string. If the HTTPRequestURI is
      * empty, use a forward slash ( / ).
      */
-    const stringToSign = request.method + "+" +
-                         uri.pathname() + "+" +
-                         DynamicValue("com.luckymarmot.TimestampDynamicValue", {
-                          now: true,
+    const timestamp = DynamicValue("com.luckymarmot.TimestampDynamicValue", {
                           format: 1
-                         })
+                      }).getEvaluatedString()
+    const stringToSign = request.method + "+" +
+                         uri.segment(0, "").pathname() + "+" +
+                         timestamp
     return stringToSign
   }
 
