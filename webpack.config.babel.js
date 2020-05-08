@@ -1,7 +1,7 @@
 import webpack from 'webpack'
 import path from 'path'
 
-const name = 'AWSECommerceServiceDynamicValue'
+const name = 'SeamlessDynamicValue'
 
 const production = process.env.NODE_ENV === 'production'
 

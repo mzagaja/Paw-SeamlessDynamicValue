@@ -1,9 +1,9 @@
 {
-  "name": "Paw-AWSECommerceServiceDynamicValue",
-  "version": "2.0.0",
-  "main": "src/AWSECommerceServiceDynamicValue.js",
+  "name": "Paw-SeamlessDynamicValue",
+  "version": "1.0.0",
+  "main": "src/SeamlessDynamicValue.js",
   "license": "MIT",
-  "homepage": "https://github.com/luckymarmot/Paw-AWSECommerceServiceDynamicValue",
+  "homepage": "https://github.com/mzagaja/Paw-SeamlessDynamicValue",
   "dependencies": {
     "babel-plugin-transform-flow-strip-types": "6.3.15",
     "babel-polyfill": "6.3.14",
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:luckymarmot/Paw-AWSECommerceServiceDynamicValue.git"
+    "url": "git@github.com:mzagaja/Paw-SeamlessDynamicValue.git"
   }
 }

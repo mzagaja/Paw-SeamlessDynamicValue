@@ -1,4 +1,4 @@
-identifier=com.luckymarmot.PawExtensions.AWSECommerceServiceDynamicValue
+identifier=com.luckymarmot.PawExtensions.SeamlessDynamicValue
 extensions_dir=$(HOME)/Library/Containers/com.luckymarmot.Paw/Data/Library/Application Support/com.luckymarmot.Paw/Extensions/
 
 build:
@@ -13,4 +13,4 @@ install: clean build
 	cp -r ./build/$(identifier)/* "$(extensions_dir)$(identifier)/"
 
 archive: build
-	cd ./build/; zip -r AWSECommerceServiceDynamicValue.zip "$(identifier)/"
+	cd ./build/; zip -r SeamlessDynamicValue.zip "$(identifier)/"
