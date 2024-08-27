@@ -24,7 +24,7 @@
     "babel-preset-stage-3": "6.3.13",
     "babel-register": "6.3.13",
     "path": "0.12.7",
-    "webpack": "1.12.9"
+    "webpack": "5.94.0"
   },
   "scripts": {
     "build": "rm -rf dist/ && BUILD_ENV=build ./node_modules/.bin/webpack --bail --display-error-details"
